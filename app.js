@@ -1,5 +1,8 @@
-const div = document.getElementById("container")
 
+const div = document.querySelector("container")
+const cell =document.getElementsByClassName('cell')
+
+// While loop cresting the grid
 let n=16, i=-1, j=0, s='';
 
 while(++i<n) {
@@ -8,4 +11,19 @@ while(++i<n) {
   s+= '</div>'
 }
 
-container.innerHTML = s;
+ container.innerHTML = s;
+//
+
+ // Mouse over random color function
+
+div.forEach(div => {
+  div.addEventListener('click', color)
+  
+})
+
+let color = [, "#3C9EE7", "#E7993C", 
+"#E73C99", "#3CE746", "#E7993C"];
+
+
+
+
