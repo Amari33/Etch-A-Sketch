@@ -1,8 +1,8 @@
 
 const div = document.querySelector("container")
-const cell =document.getElementsByClassName('cell')
+const btn = document.getElementById("Btn")
 
-// While loop cresting the grid
+// While loop creating the grid
 let n=16, i=-1, j=0, s='';
 
 while(++i<n) {
@@ -12,12 +12,12 @@ while(++i<n) {
 }
 
  container.innerHTML = s;
-//
 
- // Mouse over random color function
+
+ // Hover random color
 
 div.forEach(div => {
-  div.addEventListener('click', color)
+  btn.addEventListener('click', color)
   
 })
 
