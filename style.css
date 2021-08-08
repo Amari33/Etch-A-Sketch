@@ -16,11 +16,14 @@ body {
  height: 20px;
  margin: 2px;
  border: 1px solid black;
+ 
+
+
 }
 
 .cell, .row {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-
