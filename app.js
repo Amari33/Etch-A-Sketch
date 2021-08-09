@@ -1,8 +1,5 @@
 
 const div = document.querySelector("container")
-
-const Test1 = document.getElementById("#Test1")
-const Test2 = document.getElementById("Test2")
 const cell = document.getElementById("#cell")
 
 // While loop creating the grid
@@ -26,14 +23,6 @@ while(++i<n) {
 
 // let color = [, "#3C9EE7", "#E7993C", 
 // "#E73C99", "#3CE746", "#E7993C"];
-
-
-// const cell = document.getElementsByClassName('cell')
-
-// console.log(cell)
-
-// cell.style.backgroundColor = "red";
-
 
 // Test1.onmouseover = function(){
 
