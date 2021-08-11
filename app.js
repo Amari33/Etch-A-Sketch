@@ -39,10 +39,9 @@ while(++i<n) {
 document.getElementById("cell").onmouseover = function() {mouseOver()};
 
 function mouseOver() {
-  document.getElementById("cell").style.color = "blue";
+  debugger;
+  document.getElementById("cell").style.backgroundcolor = "blue";
 }
 
 
-
-
-n
+mouseOver()
