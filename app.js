@@ -37,12 +37,25 @@ while(++i<n) {
 //   document.getElementById("cell").style.backgroundColor = "red";
 // }
 
-document.getElementById("cell").onmouseover = function() {mouseOver()};
+
+
+// document.getElementById("cell").onmouseover = function() {mouseOver()};
+
+// function mouseOver() {
+//   debugger;
+//   document.getElementById("cell").style.backgroundcolor = "blue";
+// }
+
+
+// mouseOver()
+
+document.getElementById("cell").addEventListener("mouseover", mouseOver);
 
 function mouseOver() {
-  debugger;
-  document.getElementById("cell").style.backgroundcolor = "blue";
+  document.getElementById("cell").style.color = "red";
 }
-
-
 mouseOver()
+
+cell.addEventListener("mouseover", function( event ) {
+  event.target.style.color = "orange";
+})
