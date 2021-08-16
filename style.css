@@ -1,7 +1,7 @@
 
 
 body {
-    margin-top: 25%;
+ margin-top: 15%;
 }
 
 .row {
@@ -26,3 +26,15 @@ body {
     
 }
 
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15;
+    
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}

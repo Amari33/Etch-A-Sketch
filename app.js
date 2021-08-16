@@ -3,7 +3,16 @@ const div = document.querySelector("container")
 const cell = document.getElementById("#cell")
 
 // While loop creating the grid
+
+
+
 let n=16, i=-1, j=0, s='';
+
+function myFunction() {
+   n = prompt("how big do you want the grid")
+}
+
+myFunction()
 
 while(++i<n) {
   s+= '<div class="row">'
@@ -14,13 +23,17 @@ while(++i<n) {
 
  container.innerHTML = s;
 
+ // changing backgound color on hover
 
  let cells = document.getElementsByClassName("cell"); //Get
 for (var k = 0; k < cells.length; k++) {
   cells[k].addEventListener('mouseover', (event) => {
-    event.target.style.backgroundColor = "orange";
+    event.target.style.backgroundColor =  "red";
   }, false);
 }
+
+
+
 
 
 
