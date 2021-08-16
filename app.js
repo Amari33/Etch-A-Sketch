@@ -15,47 +15,13 @@ while(++i<n) {
  container.innerHTML = s;
 
 
- // Hover random color
-
-// div.forEach(div => {
-//   btn.addEventListener('click', color)
-//   console.log(e)
-// })
-
-// let color = [, "#3C9EE7", "#E7993C", 
-// "#E73C99", "#3CE746", "#E7993C"];
-
-// Test1.onmouseover = function(){
-
-//   document.getElementById("Test1").style.backgroundColor = "red";
-
-// };
-
-// document.getElementById("cell").onmouseover = function() {mouseOver()};
-
-// function mouseOver() {
-//   document.getElementById("cell").style.backgroundColor = "red";
-// }
-
-
-
-// document.getElementById("cell").onmouseover = function() {mouseOver()};
-
-// function mouseOver() {
-//   debugger;
-//   document.getElementById("cell").style.backgroundcolor = "blue";
-// }
-
-
-// mouseOver()
-
-document.getElementById("cell").addEventListener("mouseover", mouseOver);
-
-function mouseOver() {
-  document.getElementById("cell").style.color = "red";
+ let cells = document.getElementsByClassName("cell"); //Get
+for (var k = 0; k < cells.length; k++) {
+  cells[k].addEventListener('mouseover', (event) => {
+    event.target.style.backgroundColor = "orange";
+  }, false);
 }
-mouseOver()
 
-cell.addEventListener("mouseover", function( event ) {
-  event.target.style.color = "orange";
-})
+
+
+ 

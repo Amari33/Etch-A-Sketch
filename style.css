@@ -16,6 +16,7 @@ body {
  height: 20px;
  margin: 2px;
  border: 1px solid black;
+ 
 }
 
 .cell, .row {
@@ -24,3 +25,4 @@ body {
     align-items: center;
     
 }
+
