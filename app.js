@@ -25,7 +25,7 @@ while(++i<n) {
 
  // changing backgound color on hover
 
- let cells = document.getElementsByClassName("cell"); //Get
+ let cells = document.getElementsByClassName("cell"); 
 for (var k = 0; k < cells.length; k++) {
   cells[k].addEventListener('mouseover', (event) => {
     event.target.style.backgroundColor =  "red";
