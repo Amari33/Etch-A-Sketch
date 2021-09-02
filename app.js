@@ -1,9 +1,7 @@
 const div = document.querySelector("container")
 const cell = document.getElementById("#cell")
 
-// While loop creating the grid
-
-
+// loop creating grid
 
 let n=16, i=-1, j=0, s='';
 
