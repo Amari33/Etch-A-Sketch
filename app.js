@@ -1,4 +1,3 @@
-
 const div = document.querySelector("container")
 const cell = document.getElementById("#cell")
 
