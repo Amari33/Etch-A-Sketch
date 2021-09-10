@@ -20,7 +20,6 @@ while(++i<n) {
 }
 
  container.innerHTML = s;
-
  // changing backgound color on hover
 
  let cells = document.getElementsByClassName("cell"); 
